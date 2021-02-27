@@ -1,0 +1,57 @@
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+}
+.six {
+    grid-area: six;
+}
+.seven {
+    grid-area: seven;
+}
+.eight {
+    grid-area: eight;
+}
+.nine {
+    grid-area: nine;
+}
+.zero {
+    grid-area: zero;
+}
+.decimal {
+    grid-area: decimal;
+}
+.clear {
+    grid-area: clear;
+}
+.equal {
+    grid-area: equal;
+    background-color: var(--orange-400);
+}
+
+.equal:active {
+    background-color: var(--orange-500);
+}
+
+.operator {
+    background: var(--grey-100);
+}
+
+.number {
+    background: #fff;
+}
+
+.operator:active,
+.number:active {
+    background: var(--grey-200);
+}

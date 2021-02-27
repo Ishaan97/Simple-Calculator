@@ -23,7 +23,7 @@ class Keys extends React.Component{
                 <Button className="number nine" value="9" />
                 <Button className="number zero" value="0" />
                 <Button className="number decimal" value="." />
-                <Button className="number clear" value="C" />
+                <Button className="clear" value="C" />
                 <Button className="equal" value="=" />
             </div>
         );
